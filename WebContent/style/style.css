@@ -1,0 +1,115 @@
+html, body, #mainWindow {
+	  height: 100%;
+	  width: 100%;
+	  margin: 0;
+	  padding: 0;
+	  font-size:14px;font-family:'Microsoft YaHei', SimHei !important;
+}
+body{
+	 color:#444;
+}
+ul{list-style-type: none;padding:0;margin:0;}
+ul li{padding:0;margin:0;}
+#mainWindow{ }
+
+#search {
+        display: block;
+       position:absolute;
+       right:10px;
+       top:4px;
+        z-index: 3;        
+}
+
+ #header{
+        font-size: 1.5em;
+        font-family: sans-serif;
+        padding-top:4px;
+        padding-bottom: 4px;
+        height:55px;
+        color:#660000;
+        background-color: #B0E0E6;
+      }
+
+#main{border-top: 0;}
+
+#editorDiv{
+
+      }
+      .templatePicker {
+        border: none;
+      }
+       #HomeButtonDiv {
+        position: absolute;
+        top: 110px;
+        left: 20px;
+        z-index: 50;
+      }
+       #selectoption{
+        
+        left:0px;
+        z-index: 2999;
+       }
+       #titlePane{
+        width:240px;
+      }
+      .claro .dijitTitlePaneTitle {
+        background: #fff;
+        font-weight:600;
+        border: none;
+        border-bottom:solid 1px #29201A;
+        border-top:solid 1px #29201A;
+      }
+      .claro .dijitTitlePaneTitleHover {
+        background:#eee;
+      }
+      .claro .dijitTitlePaneTitleActive {
+        background:#808775;
+      }
+      .claro .dijitTitlePaneContentOuter {
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+      }
+
+      .dj_ie .infowindow .window .top .right .user .content { position: relative; }
+      .dj_ie .simpleInfoWindow .content {position: relative;}
+      
+      
+
+#header .logo{font-size:16px;font-weight:bold;padding:0;position: absolute;left: 10px;top:8px;color:#fff;}
+#header .logo span{font-size:11px;background:#C893CD;border-radius: 6px;padding: 0 4px;color:#581D61;font-weight: normal}
+.top-menu{padding-left: 200px;}
+.top-menu ul{padding:0;}
+.top-menu ul li{float:left;margin:0;height: 40px;line-height: 40px;padding:0 10px;height:40px;color:#fff;cursor: pointer;}
+.top-menu ul li:hover{background: rgba(255,255,255,0.1);}
+.dj_ie .infowindow .window .top .right .user .content { position: relative; }
+      .dj_ie .simpleInfoWindow .content {position: relative;}
+ 
+#left-bar{}
+#left-bar h2{font-size: 12px;font-weight: normal;}
+
+.templatePicker{border:0 !important;padding: 0 !important;}
+
+.esriPopup .titlePane{background: #581D61 !important;}
+
+#titlePane{
+        width:240px;
+      }
+      .tundra .dijitTitlePaneTitle {
+        background: red;
+        font-weight:600;
+        border: none;
+        border-bottom:solid 1px #29201A;
+        border-top:solid 1px #29201A;
+      }
+      .tundra .dijitTitlePaneTitleHover {
+        background:#eee;
+      }
+      .tundra .dijitTitlePaneTitleActive {
+        background:#808775;
+      }
+      .tundra .dijitTitlePaneContentOuter {
+        border-right: none;
+        border-bottom: none;
+        border-left: none;
+      }
